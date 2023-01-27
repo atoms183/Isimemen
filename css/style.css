@@ -235,6 +235,7 @@ main {
   }
   .menu__list {
     display: block;
+    left: -4%;
   }
   .menu__link {
     color: #000;
@@ -423,8 +424,8 @@ main {
 
 @media (max-width: 1103px) {
   .programs__column {
-    padding: 0 130px;
-    margin-bottom: 20px;
+    padding: 0 5px;
+    margin: 0 35px 50px 35px;
     -webkit-box-flex: 0;
         -ms-flex: 0 1 100%;
             flex: 0 1 100%;
@@ -435,6 +436,11 @@ main {
   .item-programs__text {
     font-size: 30px;
     line-height: 160%;
+  }
+}
+@media (max-width: 365px) {
+  .programs__column {
+    margin: 0 0px 50px 0px;
   }
 }
 .item-programs {
@@ -448,6 +454,10 @@ main {
   height: 100%;
   border-radius: 10px;
   background: #AEE8FB;
+}
+
+.color-item {
+  background: #F3E9E2;
 }
 
 .item-programs__content {
